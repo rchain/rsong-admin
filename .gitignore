@@ -1,0 +1,29 @@
+target/
+project/boot/
+.idea/
+.idea*
+*.log
+*.loaded
+*.pid
+##
+## emacs & ensime
+##
+project/.ensime
+**/.ensime*
+**/.bloop
+**/.tags
+**/.TAGS
+**/TAGS
+.#*
+*.swp
+.history
+.cache
+native/
+##
+## local overrides
+##
+.envrc
+GPATH
+GRTAGS
+GTAGS
+nohup.out
